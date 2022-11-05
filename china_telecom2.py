@@ -9,7 +9,7 @@
 """
 1. 电信签到 不需要抓包 脚本仅供学习交流使用, 请在下载后24h内删除
 2. 环境变量说明:
-    必须  TELECOM_PHONE : 电信手机号
+    必须  TELECOM_PHONE2 : 电信手机号
     选填  TELECOM_PASSWORD : 电信服务密码 填写后会执行更多任务
     选填  TELECOM_FOOD  : 给宠物喂食次数 默认为0 不喂食 根据用户在网时长 每天可以喂食5-9次
 3. 必须登录过 电信营业厅 app的账号才能正常运行
@@ -32,7 +32,7 @@ from tools.tool import timestamp, get_environ, print_now
 from tools.send_msg import push
 from login.telecom_login import TelecomLogin
 
-phone = get_environ("TELECOM_PHONE")
+phone = get_environ("TELECOM_PHONE2")
 password = get_environ("TELECOM_PASSWORD")
 foods = int(float(get_environ("TELECOM_FOOD", 0, False)))
 if phone == "":
