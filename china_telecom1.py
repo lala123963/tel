@@ -193,10 +193,10 @@ class ChinaTelecom:
             sleep(3)
         rewardId = self.query_signinfo()
         if rewardId == "":
-            self.msg += f"账号{self.phone}连续签到7天兑换1元话费成功\n"
+            self.msg += f"账号{self.phone}连续签到7天兑换2元话费成功\n"
             print_now(self.msg)
         else:
-            self.msg += f"账号{self.phone}连续签到7天兑换1元话费失败 明天会继续尝试兑换\n"
+            self.msg += f"账号{self.phone}连续签到7天兑换2元话费失败 明天会继续尝试兑换\n"
             print_now(self.msg)
 
 
