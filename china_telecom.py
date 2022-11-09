@@ -4,7 +4,7 @@
 # @Author : github@limoruirui https://github.com/limoruirui
 # @Time : 2022/9/12 16:10
 # -------------------------------
-# cron "50 59 9 * * *"
+# cron "50 59 11 * * *"
 # const $ = new Env('电信签到');
 """
 1. 电信签到 不需要抓包 脚本仅供学习交流使用, 请在下载后24h内删除
